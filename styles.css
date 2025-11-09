@@ -238,12 +238,11 @@ nav .right a span {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px
 }
 
 .design-section .posters img {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
     padding: 10px;
     height: auto;
@@ -337,4 +336,5 @@ nav .right a span {
     .hero-section .text {
         font-size: 30px;
     }
+
 }
