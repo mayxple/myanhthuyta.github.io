@@ -257,10 +257,11 @@ nav .right a span {
 }
 
 .design-section .shirts img {
-    height: 500px;
-    width: 500px;
-    object-fit: cover;
+    width: 100%;
+    max-width: 500px;
     padding: 10px;
+    height: 100%;
+    max-height: 500px;
 }
 
 /* SECTION 4 - Posting */
@@ -298,14 +299,6 @@ nav .right a span {
     .hero-section img {
         width: 300px;
     }
-
-    /* SECTION 3: Designs */
-    .design-section .shirts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -334,7 +327,18 @@ nav .right a span {
     }
 
     .hero-section .text {
-        font-size: 30px;
+        font-size: 15px;
     }
 
+    .hero-section .headshot img {
+        width: 300px;
+    }
+    
+    /* SECTION 3: Shirts */
+    .design-section {
+        margin: 0;
+        gap: 0;
+        padding: 0;
+        margin-bottom: 100px;
+    }
 }
